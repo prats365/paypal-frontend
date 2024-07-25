@@ -65,7 +65,7 @@ function App() {
 
   async function getNameAndBalance() {
     // const res = await axios.get(`https://paypal-backend-tan.vercel.app/getNameAndBalance`, {
-    const res = await axios.get(`http://localhost:3001/getNameAndBalance`, {
+    const res = await axios.get(`https://api-paypal-app.vercel.app/getNameAndBalance`, {
       params: { userAddress: address },
     });
 
