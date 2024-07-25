@@ -102,7 +102,7 @@ const columns = [
         style={record.type === "Send" ? { color: "red" } : { color: "green" }}
       >
         {record.type === "Send" ? "-" : "+"}
-        {web3.utils.fromWei(record.amount, "ether")} Matic
+        {web3.utils.fromWei(record.amount, "ether")} tBNB
       </div>
     ),
   },
